@@ -1,0 +1,43 @@
+@font-face{
+	font-family: 'IndieFont';
+	src: url(../fonts/Indie_Flower/IndieFlower.ttf);
+}
+*{
+	padding:0;
+	margin:0;
+	--color-principal:#009688;
+	text-decoration: none;
+}
+body,html{
+	width: 100%;
+	height:100%;
+}
+div{
+	width: 100%;
+}
+div.card{
+	width: 90%;
+	margin: 5% 5%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+div.card img{
+	width:100%;
+}
+header{
+	background: var(--color-principal);
+	color: white;
+	line-height: 3em;
+	font-family: 'IndieFont';
+
+}
+header h1,h2,h3,h4,h5,h6{
+	display: inline-block;
+
+}
+@media screen and (min-width:900px){
+	div.card{
+		width:18%;
+		display: inline-block;
+		margin:5% 2.5%;
+	}
+}
