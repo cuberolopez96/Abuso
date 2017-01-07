@@ -37,8 +37,8 @@ header h1,h2,h3,h4,h5,h6{
 }
 @media screen and (min-width:900px){
 	div.card{
-		width:18%;
+		width:20%;
 		display: inline-block;
-		margin:5% 2.5%;
+		margin:2% 2%;
 	}
 }
